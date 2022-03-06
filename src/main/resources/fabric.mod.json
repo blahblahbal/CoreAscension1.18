@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "coreascent",
+  "version": "${version}",
+
+  "name": "Core Ascension",
+  "description": "Adds a bunch of cool stuff",
+  "authors": [
+    "blahblahbal"
+  ],
+  "contact": {
+    "homepage": "none",
+    "sources": "n/a"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.blahblahbal.coreascent.CoreAscension"
+    ]
+  },
+  "mixins": [
+    "coreascent.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
